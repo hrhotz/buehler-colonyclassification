@@ -5,11 +5,11 @@ Pipeline for automated yeast colony classification using neural networks.
 
 ### Prerequisites:
 
-You must have python v. 3.6 or above and the conda package manager installed. The recommended way to get this is through the Anaconda distribution - instructions are available here: https://conda.io/docs/user-guide/install/download.html
+You must have python v. 3.6 and the conda package manager installed. The recommended way to get this is through the Anaconda distribution - instructions are available here: https://conda.io/docs/user-guide/install/download.html
 
 The neural networks used in the pipeline are built using the `fastai` library. You can follow the steps here to install it using conda and create a conda environment: https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652
 
-**Important!** The colony classification pipeline runs with `fastai` **version 0.7**, which is not the latest version. Please make sure you download v0.7 and not v.1.x. This code has **not** been tested with later versions!
+**Important!** The colony classification pipeline runs with `fastai` **version 0.7**, which is not the latest version. Please make sure you download v0.7 and not v.1.x. This code has **not** been tested with later versions! `fastai` version 0.7 runs only with python v. 3.6 .
 
 ### Downloading and setting up the pipeline:
 
